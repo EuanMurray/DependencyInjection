@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "PeopleViewer.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/PeopleViewer.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PeopleViewer.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PeopleViewer.Common/1.0.0": {
+      "type": "project",
+      "path": "../PeopleViewer.Common/PeopleViewer.Common.csproj",
+      "msbuildProject": "../PeopleViewer.Common/PeopleViewer.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "PeopleViewer.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\euan.murray\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\practice repos\\DependencyInjection\\People.Service\\People.Service.csproj",
+      "projectName": "People.Service",
+      "projectPath": "C:\\practice repos\\DependencyInjection\\People.Service\\People.Service.csproj",
+      "packagesPath": "C:\\Users\\euan.murray\\.nuget\\packages\\",
+      "outputPath": "C:\\practice repos\\DependencyInjection\\People.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\euan.murray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\practice repos\\DependencyInjection\\PeopleViewer.Common\\PeopleViewer.Common.csproj": {
+              "projectPath": "C:\\practice repos\\DependencyInjection\\PeopleViewer.Common\\PeopleViewer.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
