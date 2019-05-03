@@ -8,7 +8,7 @@ namespace PeopleViewer.Presentation
 {
     public class PeopleViewModel : INotifyPropertyChanged
     {
-        protected ServiceReader DataReader;
+        protected IPersonreader DataReader;
 
         private IEnumerable<Person> _people;
 
@@ -24,9 +24,9 @@ namespace PeopleViewer.Presentation
             }
         }
 
-        public PeopleViewModel()
+        public PeopleViewModel(IPersonreader dataReader)
         {
-            DataReader = new ServiceReader();
+            DataReader = dataReader;
         }
 
         public void RefreshPeople()

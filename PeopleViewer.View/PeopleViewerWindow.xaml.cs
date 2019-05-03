@@ -7,11 +7,15 @@ namespace PeopleViewer
     {
         PeopleViewModel viewModel;
 
-        public PeopleViewerWindow()
+        public PeopleViewerWindow(PeopleViewModel peopleViewModel)
         {
             InitializeComponent();
-            viewModel = new PeopleViewModel();
+            viewModel = peopleViewModel;
             this.DataContext = viewModel;
+        }
+
+        public PeopleViewerWindow()
+        {
         }
 
         private void FetchButton_Click(object sender, RoutedEventArgs e)

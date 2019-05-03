@@ -1,9 +1,9 @@
 C:\practice repos\DependencyInjection\PeopleViewer.Common\bin\Debug\netstandard2.0\PeopleViewer.Common.deps.json
 C:\practice repos\DependencyInjection\PeopleViewer.Common\bin\Debug\netstandard2.0\PeopleViewer.Common.dll
 C:\practice repos\DependencyInjection\PeopleViewer.Common\bin\Debug\netstandard2.0\PeopleViewer.Common.pdb
-C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.csprojAssemblyReference.cache
 C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.csproj.CoreCompileInputs.cache
 C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.AssemblyInfoInputs.cache
 C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.AssemblyInfo.cs
 C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.dll
 C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.pdb
+C:\practice repos\DependencyInjection\PeopleViewer.Common\obj\Debug\netstandard2.0\PeopleViewer.Common.csprojAssemblyReference.cache
