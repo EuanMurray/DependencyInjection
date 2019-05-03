@@ -2,7 +2,7 @@
 
 namespace PeopleViewer.Common
 {
-    public interface IPersonreader
+    public interface IPersonReader
     {
         IEnumerable<Person> GetPeople();
         Person GetPerson(int id);
